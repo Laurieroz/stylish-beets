@@ -4,6 +4,9 @@ html {
   line-height: 1.5rem;
 }
 
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -11,12 +14,25 @@ html {
 h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
 }
 
-.nav {
+.nav ol {
   font-size: 1.125rem;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  list-style-type: none;
+}
+
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 img {
@@ -30,14 +46,3 @@ p:not(.quote) {
 .quote {
   font-size: 1.5rem
 }
-
-a:link {
-  color: #8f2440;
-}
-
-a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-}
-
-PT Sans (bold), PT Serif (regular, italic, bold
