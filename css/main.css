@@ -1,7 +1,43 @@
 html {
   box-sizing: border-box;
+  background-color: #c9b5ab;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1, h2 {
+  color: #3f1622;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.nav {
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+img {
+  width: inherit;
+}
+
+p:not(.quote) {
+  font-size:0.8rem;
+}
+
+.quote {
+  font-size: 1.5rem
+}
+
+a:link {
+  color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+PT Sans (bold), PT Serif (regular, italic, bold
